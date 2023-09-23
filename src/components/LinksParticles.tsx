@@ -32,6 +32,7 @@ const LinksParticles = () => {
             value: "#FFF",
           },
         },
+        fullScreen: { zIndex: -10 },
         fpsLimit: 120,
         interactivity: {
           events: {
