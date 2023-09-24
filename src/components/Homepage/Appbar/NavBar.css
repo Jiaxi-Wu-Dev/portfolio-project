@@ -1,0 +1,9 @@
+#logo {
+  width: 20%;
+  height: 20%;
+}
+
+#toolbar {
+  display: flex;
+  justify-content: space-between;
+}

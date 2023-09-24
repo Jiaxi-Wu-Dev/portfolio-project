@@ -3,5 +3,31 @@
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  height: 100vh;
+  align-content: center;
+  height: 100%;
+}
+
+#jiaxi {
+  width: 40%;
+  border-radius: 50%;
+}
+
+#intro {
+  font-size: 60px;
+}
+
+#photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+#text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 80vh;
 }
