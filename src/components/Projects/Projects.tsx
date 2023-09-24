@@ -1,5 +1,9 @@
 import React from "react";
 
 export default function Projects() {
-  return <div>Projects</div>;
+  return (
+    <div>
+      <h1>PROJECTS</h1>
+    </div>
+  );
 }

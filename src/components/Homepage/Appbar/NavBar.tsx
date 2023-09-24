@@ -13,6 +13,11 @@ import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 import AdbIcon from "@mui/icons-material/Adb";
 import "./NavBar.css";
+import { Link, Route, Routes } from "react-router-dom";
+import Projects from "../../Projects/Projects";
+import Homepage from "../Homepage";
+import Contact from "../../Contact/Contact";
+import About from "../../About/About";
 
 const pages = ["Projects", "About", "Contact"];
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
@@ -124,20 +129,45 @@ function ResponsiveAppBar() {
           </Typography> */}
           <div>
             <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
-              {pages.map((page) => (
-                <Button
-                  key={page}
-                  onClick={handleCloseNavMenu}
-                  sx={{
-                    my: 2,
-                    color: "black",
-                    display: "block",
-                    fontSize: 17,
-                  }}
-                >
-                  {page}
-                </Button>
-              ))}
+              <Button
+                onClick={handleCloseNavMenu}
+                sx={{
+                  my: 2,
+                  color: "black",
+                  display: "block",
+                  fontSize: 17,
+                }}
+              >
+                <Link to="/projects" className="list">
+                  project
+                </Link>
+              </Button>
+              <Button
+                onClick={handleCloseNavMenu}
+                sx={{
+                  my: 2,
+                  color: "black",
+                  display: "block",
+                  fontSize: 17,
+                }}
+              >
+                <Link to="/contact" className="list">
+                  contact
+                </Link>
+              </Button>
+              <Button
+                onClick={handleCloseNavMenu}
+                sx={{
+                  my: 2,
+                  color: "black",
+                  display: "block",
+                  fontSize: 17,
+                }}
+              >
+                <Link to="/about" className="list">
+                  about
+                </Link>
+              </Button>
             </Box>
           </div>
 
