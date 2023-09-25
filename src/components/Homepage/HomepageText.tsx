@@ -1,6 +1,7 @@
 import { Button, Typography } from "@mui/material";
 import "./Homepage.css";
 import LinksParticles from "../LinksParticles";
+import { Link } from "react-router-dom";
 
 export default function HomepageText() {
   return (
@@ -53,7 +54,9 @@ export default function HomepageText() {
             </h2>
           </Typography>
           <Button variant="contained" color="error">
-            Projects
+            <Link to="/projects" className="list">
+              Projects
+            </Link>
           </Button>
         </div>
       </div>
