@@ -3,7 +3,7 @@ import paint1 from "./pictures/tictactoe.png";
 export const data = [
   {
     key: 0,
-    image: paint1,
+    picture: paint1,
     alt: "tic tac Toe",
     title: "Painting One",
     content: "Description of Painting One",
