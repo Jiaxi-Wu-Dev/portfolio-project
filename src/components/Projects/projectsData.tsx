@@ -1,6 +1,12 @@
 import tictactoe from "./pictures/tictactoe.png";
 import drumbeats2 from "./pictures/drumbeats2.png";
 import meditations from "./pictures/meditations.png";
+import reddit from "./pictures/reddit.png";
+import faceDetection from "./pictures/faceDetection.png";
+import robofriends from "./pictures/robofriends.png";
+import google from "./pictures/google.png";
+import chocolate from "./pictures/chocolate.png";
+import houseAngular from "./pictures/angular.png";
 
 export const data = [
   {
@@ -35,44 +41,62 @@ export const data = [
   },
   {
     key: 3,
-    image: tictactoe,
-    alt: "tic tac Toe",
-    title: "Painting One",
-    content: "Description of Painting One",
+    picture: reddit,
+    alt: "reddit",
+    title: "Reddit Clone",
+    content: "Reddit Clone",
+    url: "http://standing-roll.surge.sh/",
+    details: "A UI clone of Reddit",
+    tools: "React, Javascript, HTML/CSS, MUI",
   },
   {
     key: 4,
-    image: tictactoe,
-    alt: "tic tac Toe",
-    title: "Painting One",
-    content: "Description of Painting One",
+    picture: faceDetection,
+    alt: "Face Detection App",
+    title: "Face Detection App",
+    content: "Face Detection App",
+    url: "https://sage-pithivier-7b48fe.netlify.app/",
+    details: "Full Stack App with sever/database connectivity",
+    tools: "React, MUI, Postgresql, Knex, CockroachDB",
   },
   {
     key: 5,
-    image: tictactoe,
-    alt: "tic tac Toe",
-    title: "Painting One",
-    content: "Description of Painting One",
+    picture: robofriends,
+    alt: "Robo Friends",
+    title: "Robo Friends Search",
+    content: "Search for your robofriends",
+    url: "https://marvelous-bublanina-3a5675.netlify.app/",
+    details: "Search for your robofriends",
+    tools: "React, React Hooks, API Integration",
   },
   {
     key: 6,
-    image: tictactoe,
-    alt: "tic tac Toe",
-    title: "Painting One",
-    content: "Description of Painting One",
+    picture: google,
+    alt: "Google",
+    title: "Google UI",
+    content: "Google UI",
+    url: "https://marvelous-bublanina-3a5675.netlify.app/",
+    details: "Recreated Googles homepage",
+    tools: "HTML/CSS, UI",
   },
   {
     key: 7,
-    image: tictactoe,
-    alt: "tic tac Toe",
-    title: "Painting One",
-    content: "Description of Painting One",
+    picture: chocolate,
+    alt: "Chocolate Store",
+    title: "Chocolate Store",
+    content: "Application with shopping cart features",
+    url: "https://magical-cranachan-6b81b3.netlify.app//",
+    details: "Search for your robofriends",
+    tools: "React, HTML/CSS, CRUD, MUI, ",
   },
   {
     key: 8,
-    image: tictactoe,
-    alt: "tic tac Toe",
-    title: "Painting One",
-    content: "Description of Painting One",
+    picture: houseAngular,
+    alt: "Angular App",
+    title: "Real Estate App",
+    content: "Real Estate App",
+    url: "https://marvelous-bublanina-3a5675.netlify.app/",
+    details: "Search through cities with this Angular App",
+    tools: "Angular, HTML/CSS, Full Stack",
   },
 ];

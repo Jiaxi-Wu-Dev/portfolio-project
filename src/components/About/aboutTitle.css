@@ -1,0 +1,83 @@
+#body {
+  background-color: black;
+}
+
+#aboutTitle {
+  display: flex;
+  justify-content: center;
+}
+
+#threeSkills {
+  display: flex;
+  flex-direction: row;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  max-width: 1100px;
+}
+
+.skills {
+  display: flex;
+  position: relative;
+
+  width: 33.3%;
+}
+
+.skillsInner {
+  border-style: solid;
+  border-width: 3px 1.5px 3px 3px;
+  border-color: #a3a3a3;
+  padding: 40px 30px;
+  width: 100%;
+}
+
+.elementor-heading-title::before {
+  content: "<h2>";
+  margin-bottom: 5px;
+  line-height: 1.4em;
+  opacity: 0.3;
+  color: white;
+  display: block;
+  margin-left: -35px;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.elementor-heading-title::after {
+  content: "<h2>";
+  margin-top: 5px;
+  line-height: 1.4em;
+  opacity: 0.3;
+  color: white;
+  display: block;
+  margin-left: -35px;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.skillsTextSection {
+  width: 100%;
+}
+
+.skillsTextSectionContainer::after {
+  opacity: 0.3;
+  content: "";
+  width: 0;
+  height: 65%;
+  position: absolute;
+  background-color: white;
+  border: 0.1px solid white;
+  bottom: 17%;
+  left: 17px;
+}
+
+#htmlPictureContainer {
+  text-align: center;
+}
+#htmlPicture {
+  opacity: 0.2;
+  margin: -20px 0 0;
+  width: 582px;
+  vertical-align: middle;
+  display: inline-block;
+}
