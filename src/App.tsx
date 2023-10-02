@@ -1,5 +1,7 @@
+// @ts-ignore
+
 import "./App.css";
-import Homepage from "./components/Homepage/Homepage.jsx";
+import Homepage from "./components/Homepage/Homepage.tsx";
 
 function App() {
   return (

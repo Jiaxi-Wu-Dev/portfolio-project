@@ -6,12 +6,12 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "force-start": "TSX_COMPILE_ON_ERROR=true ESLINT_NO_DEV_ERRORS=true react-scripts start",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "force-start": "TSX_COMPILE_ON_ERROR=true ESLINT_NO_DEV_ERRORS=true react-scripts start",
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
