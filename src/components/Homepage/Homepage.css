@@ -31,3 +31,7 @@
   align-content: center;
   height: 80vh;
 }
+
+#projectText {
+  color: white;
+}

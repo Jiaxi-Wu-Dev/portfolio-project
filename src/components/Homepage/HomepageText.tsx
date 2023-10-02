@@ -53,11 +53,11 @@ export default function HomepageText() {
               experiences.
             </h2>
           </Typography>
-          <Button variant="contained" color="error">
-            <Link to="/projects" className="list">
+          <Link to="/projects" className="list" id="projectText">
+            <Button variant="contained" color="error">
               Projects
-            </Link>
-          </Button>
+            </Button>
+          </Link>
         </div>
       </div>
     </div>

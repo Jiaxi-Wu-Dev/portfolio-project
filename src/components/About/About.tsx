@@ -1,5 +1,8 @@
 import "./aboutTitle.css";
 import AboutButtons from "./AboutButtons";
+import LaptopTwoToneIcon from "@mui/icons-material/LaptopTwoTone";
+import ScienceOutlinedIcon from "@mui/icons-material/ScienceOutlined";
+import ColorLensOutlinedIcon from "@mui/icons-material/ColorLensOutlined";
 
 export default function About() {
   return (
@@ -10,7 +13,14 @@ export default function About() {
       <div id="threeSkills">
         <div className="skills">
           <div className="skillsInner">
-            <div>Software Engineer</div>
+            <div className="skillsIcon">
+              <div className="icon">
+                <LaptopTwoToneIcon fontSize="large" />
+              </div>
+              <div>
+                <h3>Software Engineer</h3>
+              </div>
+            </div>
             <div id="skillsTextSection">
               <div id="skillsTextSectionContainer">
                 <div className="elementor-heading-title">
@@ -23,7 +33,14 @@ export default function About() {
         </div>
         <div className="skills">
           <div className="skillsInner">
-            <div>Full Stack Developer</div>
+            <div className="skillsIcon">
+              <div className="icon">
+                <ScienceOutlinedIcon fontSize="large" />
+              </div>
+              <div>
+                <h3>Frontend Developer</h3>
+              </div>
+            </div>
             <div id="skillsTextSection">
               <div id="skillsTextSectionContainer">
                 <div className="elementor-heading-title">
@@ -36,7 +53,14 @@ export default function About() {
         </div>
         <div className="skills">
           <div className="skillsInner">
-            <div>Web Designer</div>
+            <div className="skillsIcon">
+              <div className="icon">
+                <ColorLensOutlinedIcon fontSize="large" />
+              </div>
+              <div>
+                <h3>Web Designer</h3>
+              </div>
+            </div>
             <div id="skillsTextSection">
               <div id="skillsTextSectionContainer">
                 <div className="elementor-heading-title">

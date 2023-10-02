@@ -129,45 +129,33 @@ function ResponsiveAppBar() {
           </Typography> */}
           <div>
             <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
-              <Button
-                onClick={handleCloseNavMenu}
-                sx={{
-                  my: 2,
-                  color: "black",
-                  display: "block",
-                  fontSize: 17,
-                }}
-              >
-                <Link to="/projects" className="list">
+              <Link to="/projects" className="list">
+                <Button
+                  onClick={handleCloseNavMenu}
+                  sx={{
+                    my: 2,
+                    color: "black",
+                    display: "block",
+                    fontSize: 17,
+                  }}
+                >
                   project
-                </Link>
-              </Button>
-              <Button
-                onClick={handleCloseNavMenu}
-                sx={{
-                  my: 2,
-                  color: "black",
-                  display: "block",
-                  fontSize: 17,
-                }}
-              >
-                <Link to="/contact" className="list">
-                  contact
-                </Link>
-              </Button>
-              <Button
-                onClick={handleCloseNavMenu}
-                sx={{
-                  my: 2,
-                  color: "black",
-                  display: "block",
-                  fontSize: 17,
-                }}
-              >
-                <Link to="/about" className="list">
+                </Button>
+              </Link>
+
+              <Link to="/about" className="list">
+                <Button
+                  onClick={handleCloseNavMenu}
+                  sx={{
+                    my: 2,
+                    color: "black",
+                    display: "block",
+                    fontSize: 17,
+                  }}
+                >
                   about
-                </Link>
-              </Button>
+                </Button>
+              </Link>
             </Box>
           </div>
 

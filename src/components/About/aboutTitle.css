@@ -127,3 +127,14 @@
 #aboutMeTextParagraphs {
   width: 75%;
 }
+
+.skillsIcon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  margin-right: 10px;
+}
