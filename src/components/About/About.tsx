@@ -3,6 +3,8 @@ import AboutButtons from "./AboutButtons";
 import LaptopTwoToneIcon from "@mui/icons-material/LaptopTwoTone";
 import ScienceOutlinedIcon from "@mui/icons-material/ScienceOutlined";
 import ColorLensOutlinedIcon from "@mui/icons-material/ColorLensOutlined";
+import htmlPicture from "../Projects/pictures/html.png";
+import profilePicture from "../Projects/pictures/jiaxi.jpg";
 
 export default function About() {
   return (
@@ -77,11 +79,7 @@ export default function About() {
         </div>
       </div>
       <div id="htmlPictureContainer">
-        <img
-          id="htmlPicture"
-          src="src\components\Projects\pictures\html.png"
-          alt="html"
-        ></img>
+        <img id="htmlPicture" src={htmlPicture} alt="html"></img>
       </div>
       <div id="aboutMeSection">
         <div id="aboutMeWrap">
@@ -118,10 +116,7 @@ export default function About() {
                 <AboutButtons />
               </div>
             </div>
-            <img
-              src="src\components\Projects\pictures\jiaxi.jpg"
-              id="pictureJiaxi"
-            ></img>
+            <img src={profilePicture} id="pictureJiaxi"></img>
           </div>
         </div>
         <div></div>

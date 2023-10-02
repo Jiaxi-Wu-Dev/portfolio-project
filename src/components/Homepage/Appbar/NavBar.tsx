@@ -6,6 +6,7 @@ import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
 import "./NavBar.css";
 import { Link } from "react-router-dom";
+import brandPicture from "../../Projects/pictures/jia1.jpg";
 
 function ResponsiveAppBar() {
   return (
@@ -31,11 +32,7 @@ function ResponsiveAppBar() {
                 textDecoration: "none",
               }}
             >
-              <img
-                id="logo"
-                src="src\components\Projects\pictures\jia1.jpg"
-                alt="jia"
-              ></img>
+              <img id="logo" src={brandPicture} alt="jia"></img>
             </Typography>
           </div>
           <div>
