@@ -77,7 +77,11 @@ export default function About() {
         </div>
       </div>
       <div id="htmlPictureContainer">
-        <img id="htmlPicture" src="src\assets\html.png" alt="html"></img>
+        <img
+          id="htmlPicture"
+          src="src\components\Projects\pictures\html.png"
+          alt="html"
+        ></img>
       </div>
       <div id="aboutMeSection">
         <div id="aboutMeWrap">
@@ -114,7 +118,10 @@ export default function About() {
                 <AboutButtons />
               </div>
             </div>
-            <img src="src\assets\jiaxi.jpg" id="pictureJiaxi"></img>
+            <img
+              src="src\components\Projects\pictures\jiaxi.jpg"
+              id="pictureJiaxi"
+            ></img>
           </div>
         </div>
         <div></div>

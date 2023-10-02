@@ -1,4 +1,5 @@
-import React from "react";
+//@ts-nocheck
+
 import Grid from "@mui/material/Unstable_Grid2";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";

@@ -1,5 +1,4 @@
 import { Button } from "@mui/material";
-import React from "react";
 import "./aboutTitle.css";
 
 export default function AboutButtons() {
