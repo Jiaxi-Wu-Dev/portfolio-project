@@ -1,6 +1,5 @@
-import React from "react";
 import "./aboutTitle.css";
-import { Box } from "@mui/material";
+import AboutButtons from "./AboutButtons";
 
 export default function About() {
   return (
@@ -15,7 +14,7 @@ export default function About() {
             <div id="skillsTextSection">
               <div id="skillsTextSectionContainer">
                 <div className="elementor-heading-title">
-                  Experienced in both functional and OOP: Dart, Python, Java,
+                  Experienced in both functional and OOP: Python, Java,
                   JavaScript, TypeScript.
                 </div>
               </div>
@@ -29,7 +28,7 @@ export default function About() {
               <div id="skillsTextSectionContainer">
                 <div className="elementor-heading-title">
                   Passionate about UI/UX. Over 4 years of development experience
-                  in HTML, CSS, JS, React and NextJS frameworks.
+                  in HTML, CSS, JS, React and Angular frameworks.
                 </div>
               </div>
             </div>
@@ -41,8 +40,9 @@ export default function About() {
             <div id="skillsTextSection">
               <div id="skillsTextSectionContainer">
                 <div className="elementor-heading-title">
-                  <p>Experienced in both functional and OOP:</p>
-                  <p>Dart, Python, Java, JavaScript, TypeScript.</p>
+                  Creating seamless and fluid applications.
+                  <br />
+                  Figma, Canva, Wordpress, Adobe, Trello
                 </div>
               </div>
             </div>
@@ -53,6 +53,40 @@ export default function About() {
         <img id="htmlPicture" src="src\assets\html.png" alt="html"></img>
       </div>
       <div id="aboutMeSection">
+        <div id="aboutMeWrap">
+          <div id="aboutMeTextSection">
+            <div id="aboutMeText">
+              <h1 id="knowMeText">Get To Know Me</h1>
+              <div id="aboutMeTextParagraphs">
+                <p>
+                  I am a Software Engineer/Full Stack Developer who enjoys
+                  designing and building fluid web applications that leads to
+                  the success of the overall business. From a young age,
+                  technology and design always fascinated me and has played a
+                  huge impact in my life as well as paying several dividends. It
+                  pays to be able to fix your own tech!
+                </p>
+                <p>
+                  Always improving, I strive to constantly study and better my
+                  tools. I can be found working on new projects, learning new
+                  languages, and keeping up to date with AI trends. In my free
+                  time I am visiting musuems, national parks, and enjoying
+                  nature
+                </p>
+                <p>
+                  I am open to job opportunities where I can contribute, learn
+                  and grow. If you have an opportunity that matches my
+                  technology stack and skills then don't hesitate to contact me.
+                  Lets build something awesome.
+                </p>
+              </div>
+              <div id="technology">
+                <AboutButtons />
+              </div>
+            </div>
+            <img src="src\assets\jiaxi.jpg" id="pictureJiaxi"></img>
+          </div>
+        </div>
         <div></div>
       </div>
     </div>

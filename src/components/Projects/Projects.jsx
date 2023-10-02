@@ -1,8 +1,5 @@
-import { Container } from "@mui/material";
 import React from "react";
-import { styled } from "@mui/material/styles";
 import Grid from "@mui/material/Unstable_Grid2";
-import Paper from "@mui/material/Paper";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
@@ -10,12 +7,9 @@ import Typography from "@mui/material/Typography";
 import { CardActionArea } from "@mui/material";
 import "./projects.css";
 import { data } from "./projectsData";
-import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 
 export default function Projects() {
-  const navigate = useNavigate();
-
   const goToWebpage = (data) => {
     window.location.replace(data.url);
   };

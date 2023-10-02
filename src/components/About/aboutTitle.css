@@ -81,3 +81,49 @@
   vertical-align: middle;
   display: inline-block;
 }
+
+#pictureJiaxi {
+  width: 25%;
+  margin-top: 75px;
+}
+
+#aboutMeSection {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+
+#aboutMeTextSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#aboutMeText {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-content: space-evenly;
+}
+
+#aboutMeWrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#knowMeText {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.toolsButtons {
+  margin: 2px;
+  padding: 5px;
+  color: black;
+  border-style: dashed;
+}
+
+#aboutMeTextParagraphs {
+  width: 75%;
+}
