@@ -29,7 +29,7 @@ const LinksParticles = () => {
       options={{
         background: {
           color: {
-            value: "#FFF",
+            value: "#fefdfe",
           },
         },
         fullScreen: { zIndex: -10 },
@@ -38,7 +38,7 @@ const LinksParticles = () => {
           events: {
             onClick: {
               enable: true,
-              mode: "push",
+              mode: "attract",
             },
             onHover: {
               enable: true,

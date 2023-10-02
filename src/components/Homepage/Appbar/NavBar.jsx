@@ -116,11 +116,12 @@ function ResponsiveAppBar() {
                   onClick={handleCloseNavMenu}
                   sx={{
                     my: 2,
-                    color: "black",
+                    color: "white",
                     display: "block",
                     fontSize: 17,
+                    marginRight: "10px",
                   }}
-                  variant="outlined"
+                  variant="contained"
                   color="error"
                 >
                   project
@@ -132,11 +133,11 @@ function ResponsiveAppBar() {
                   onClick={handleCloseNavMenu}
                   sx={{
                     my: 2,
-                    color: "black",
+                    color: "white",
                     display: "block",
                     fontSize: 17,
                   }}
-                  variant="outlined"
+                  variant="contained"
                   color="error"
                 >
                   about

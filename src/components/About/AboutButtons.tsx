@@ -1,10 +1,14 @@
 import { Button } from "@mui/material";
 import React from "react";
+import "./aboutTitle.css";
 
 export default function AboutButtons() {
   return (
     <div>
-      <h1>Technologies</h1>
+      <div id="technologiesContainer">
+        <h1>Technologies</h1>
+        <hr className="line"></hr>
+      </div>
       <Button
         className="toolsButtons"
         variant="contained"

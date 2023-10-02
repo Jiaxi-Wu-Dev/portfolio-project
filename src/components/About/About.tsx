@@ -7,8 +7,11 @@ import ColorLensOutlinedIcon from "@mui/icons-material/ColorLensOutlined";
 export default function About() {
   return (
     <div>
-      <div id="aboutTitle">
-        <h1>My Expertise</h1>
+      <div id="aboutTitleContainer">
+        <div className="aboutTitle">
+          <h1>My Expertise</h1>
+          <hr className="line"></hr>
+        </div>
       </div>
       <div id="threeSkills">
         <div className="skills">
@@ -80,7 +83,10 @@ export default function About() {
         <div id="aboutMeWrap">
           <div id="aboutMeTextSection">
             <div id="aboutMeText">
-              <h1 id="knowMeText">Get To Know Me</h1>
+              <div id="knowMeTextContainer">
+                <h1 id="knowMeText">Get To Know Me</h1>
+                <hr className="line"></hr>
+              </div>
               <div id="aboutMeTextParagraphs">
                 <p>
                   I am a Software Engineer/Full Stack Developer who enjoys

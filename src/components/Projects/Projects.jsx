@@ -16,7 +16,12 @@ export default function Projects() {
 
   return (
     <div>
-      <h1 id="projects"> Projects</h1>
+      <div id="projectsContainer">
+        <div id="projects">
+          <h1> Projects</h1>
+          <hr id="line"></hr>
+        </div>
+      </div>
       <Grid
         container
         spacing={{ xs: 2, md: 6 }}
