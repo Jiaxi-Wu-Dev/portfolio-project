@@ -36,7 +36,7 @@ function ResponsiveAppBar() {
             </Typography>
           </div>
           <div>
-            <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
+            <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "flex" } }}>
               <Link to="/projects" className="list">
                 <Button
                   sx={{
