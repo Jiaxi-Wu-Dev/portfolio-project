@@ -37,7 +37,21 @@ function ResponsiveAppBar() {
           </div>
           <div>
             <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "flex" } }}>
-              <Link to="/projects" className="list"></Link>
+              <Link to="/projects" className="list">
+                <Button
+                  sx={{
+                    my: 2,
+                    color: "white",
+                    display: "block",
+                    fontSize: 17,
+                    marginRight: "10px",
+                  }}
+                  variant="contained"
+                  color="error"
+                >
+                  project
+                </Button>
+              </Link>
 
               <Link to="/about" className="list">
                 <Button
