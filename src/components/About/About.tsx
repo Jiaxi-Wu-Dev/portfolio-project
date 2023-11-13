@@ -29,8 +29,8 @@ export default function About() {
             <div id="skillsTextSection">
               <div id="skillsTextSectionContainer">
                 <div className="elementor-heading-title">
-                  Experienced in both functional and OOP: Python, Java,
-                  JavaScript, TypeScript.
+                  Experienced in both functional and OOP: JavaScript,
+                  TypeScript.
                 </div>
               </div>
             </div>

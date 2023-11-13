@@ -34,7 +34,7 @@ export default function HomepageText() {
             }}
           >
             <h2 className="info">
-              I am a Full Stack Developer with over 4 years of professional
+              I am a Front End Developer with over 4 years of professional
               experience.
             </h2>
           </Typography>
