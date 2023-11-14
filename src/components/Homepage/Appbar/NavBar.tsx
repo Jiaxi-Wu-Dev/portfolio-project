@@ -6,6 +6,8 @@ import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
 import "./NavBar.css";
 import { Link } from "react-router-dom";
+import brandPicture from "../../../assets/design-red2-logo-transparent-cropped.png";
+
 
 function ResponsiveAppBar() {
   return (
@@ -31,12 +33,12 @@ function ResponsiveAppBar() {
                 textDecoration: "none",
               }}
             >
-              <img id="logo" src="src\assets\jia1.jpg" alt="jia"></img>
+              <img id="logo" src={brandPicture} alt="Canvas Web"></img>
             </Typography>
           </div>
-
           <div>
-            <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
+            <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "flex" } }}>
+
               <Link to="/projects" className="list">
                 <Button
                   sx={{
@@ -49,7 +51,8 @@ function ResponsiveAppBar() {
                   variant="contained"
                   color="error"
                 >
-                  project
+                  projects
+
                 </Button>
               </Link>
 
