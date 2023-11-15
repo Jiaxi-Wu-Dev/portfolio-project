@@ -2,11 +2,47 @@ import { Button, Typography } from "@mui/material";
 import "./Homepage.css";
 import LinksParticles from "../LinksParticles";
 import { Link } from "react-router-dom";
+import * as React from "react";
+import ViewListIcon from "@mui/icons-material/ViewList";
+import ViewModuleIcon from "@mui/icons-material/ViewModule";
+import ViewQuiltIcon from "@mui/icons-material/ViewQuilt";
+import ToggleButton from "@mui/material/ToggleButton";
+import ToggleButtonGroup from "@mui/material/ToggleButtonGroup";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import TwitterIcon from "@mui/icons-material/Twitter";
 
 export default function HomepageText() {
+  const [view, setView] = React.useState("list");
+
+  const handleChange = (
+    event: React.MouseEvent<HTMLElement>,
+    nextView: string
+  ) => {
+    setView(nextView);
+  };
+
   return (
     <div>
       <LinksParticles />
+      <div>
+        <ToggleButtonGroup
+          orientation="vertical"
+          value={view}
+          exclusive
+          onChange={handleChange}
+        >
+          <ToggleButton value="list" aria-label="list">
+            <LinkedInIcon />
+          </ToggleButton>
+          <ToggleButton value="module" aria-label="module">
+            <GitHubIcon />
+          </ToggleButton>
+          <ToggleButton value="quilt" aria-label="quilt">
+            <TwitterIcon />
+          </ToggleButton>
+        </ToggleButtonGroup>
+      </div>
       <div id="homepage">
         <div id="text">
           <Typography
