@@ -2,47 +2,74 @@ import { Button, Typography } from "@mui/material";
 import "./Homepage.css";
 import LinksParticles from "../LinksParticles";
 import { Link } from "react-router-dom";
-import * as React from "react";
-import ViewListIcon from "@mui/icons-material/ViewList";
-import ViewModuleIcon from "@mui/icons-material/ViewModule";
-import ViewQuiltIcon from "@mui/icons-material/ViewQuilt";
 import ToggleButton from "@mui/material/ToggleButton";
 import ToggleButtonGroup from "@mui/material/ToggleButtonGroup";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import TwitterIcon from "@mui/icons-material/Twitter";
+import LinkUrl from "@mui/material/Link";
+import FeedIcon from "@mui/icons-material/Feed";
 
 export default function HomepageText() {
-  const [view, setView] = React.useState("list");
-
-  const handleChange = (
-    event: React.MouseEvent<HTMLElement>,
-    nextView: string
-  ) => {
-    setView(nextView);
-  };
-
   return (
     <div>
       <LinksParticles />
 
       <div id="homepage">
         <div id="socialMediaButtonGroup">
-          <ToggleButtonGroup
-            orientation="vertical"
-            exclusive
-            onChange={handleChange}
-          >
-            <ToggleButton value="list" aria-label="list">
+          <LinkUrl href="https://www.linkedin.com/in/jiaxiwu/">
+            <Button
+              sx={{
+                mr: 0,
+                display: { xs: "flex", md: "flex" },
+                fontFamily: "monospace",
+
+                color: "black",
+                textDecoration: "none",
+              }}
+              className="socialButtons"
+              value="list"
+              aria-label="list"
+            >
               <LinkedInIcon />
-            </ToggleButton>
-            <ToggleButton value="module" aria-label="module">
+            </Button>
+          </LinkUrl>
+          <LinkUrl href="https://github.com/wu-jiaxi">
+            <Button
+              sx={{
+                mr: 0,
+                display: { xs: "flex", md: "flex" },
+                fontFamily: "monospace",
+
+                color: "black",
+                textDecoration: "none",
+              }}
+              className="socialButtons"
+              value="module"
+              aria-label="module"
+            >
               <GitHubIcon />
-            </ToggleButton>
-            <ToggleButton value="quilt" aria-label="quilt">
-              <TwitterIcon />
-            </ToggleButton>
-          </ToggleButtonGroup>
+            </Button>
+          </LinkUrl>
+          <LinkUrl
+            href={
+              "https://docs.google.com/document/d/1gJEK8LmemI9pBrT2frS62Pwt86Rw3nEg/edit?usp=sharing&ouid=112681058268360632929&rtpof=true&sd=true"
+            }
+          >
+            <Button
+              sx={{
+                mr: 0,
+                display: { xs: "flex", md: "flex" },
+                fontFamily: "monospace",
+
+                color: "black",
+                textDecoration: "none",
+              }}
+              className="socialButtons"
+            >
+              <FeedIcon />
+            </Button>
+          </LinkUrl>
         </div>
         <div id="text">
           <Typography
