@@ -7,6 +7,8 @@ import ToggleButtonGroup from "@mui/material/ToggleButtonGroup";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import TwitterIcon from "@mui/icons-material/Twitter";
+import LinkUrl from "@mui/material/Link";
+import FeedIcon from "@mui/icons-material/Feed";
 
 export default function HomepageText() {
   return (
@@ -15,17 +17,59 @@ export default function HomepageText() {
 
       <div id="homepage">
         <div id="socialMediaButtonGroup">
-          <ToggleButtonGroup orientation="vertical" exclusive>
-            <ToggleButton value="list" aria-label="list">
+          <LinkUrl href="https://www.linkedin.com/in/jiaxiwu/">
+            <Button
+              sx={{
+                mr: 0,
+                display: { xs: "flex", md: "flex" },
+                fontFamily: "monospace",
+
+                color: "black",
+                textDecoration: "none",
+              }}
+              className="socialButtons"
+              value="list"
+              aria-label="list"
+            >
               <LinkedInIcon />
-            </ToggleButton>
-            <ToggleButton value="module" aria-label="module">
+            </Button>
+          </LinkUrl>
+          <LinkUrl href="https://github.com/wu-jiaxi">
+            <Button
+              sx={{
+                mr: 0,
+                display: { xs: "flex", md: "flex" },
+                fontFamily: "monospace",
+
+                color: "black",
+                textDecoration: "none",
+              }}
+              className="socialButtons"
+              value="module"
+              aria-label="module"
+            >
               <GitHubIcon />
-            </ToggleButton>
-            <ToggleButton value="quilt" aria-label="quilt">
-              <TwitterIcon />
-            </ToggleButton>
-          </ToggleButtonGroup>
+            </Button>
+          </LinkUrl>
+          <LinkUrl
+            href={
+              "https://docs.google.com/document/d/1gJEK8LmemI9pBrT2frS62Pwt86Rw3nEg/edit?usp=sharing&ouid=112681058268360632929&rtpof=true&sd=true"
+            }
+          >
+            <Button
+              sx={{
+                mr: 0,
+                display: { xs: "flex", md: "flex" },
+                fontFamily: "monospace",
+
+                color: "black",
+                textDecoration: "none",
+              }}
+              className="socialButtons"
+            >
+              <FeedIcon />
+            </Button>
+          </LinkUrl>
         </div>
         <div id="text">
           <Typography
