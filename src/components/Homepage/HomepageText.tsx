@@ -25,25 +25,25 @@ export default function HomepageText() {
   return (
     <div>
       <LinksParticles />
-      <div>
-        <ToggleButtonGroup
-          orientation="vertical"
-          value={view}
-          exclusive
-          onChange={handleChange}
-        >
-          <ToggleButton value="list" aria-label="list">
-            <LinkedInIcon />
-          </ToggleButton>
-          <ToggleButton value="module" aria-label="module">
-            <GitHubIcon />
-          </ToggleButton>
-          <ToggleButton value="quilt" aria-label="quilt">
-            <TwitterIcon />
-          </ToggleButton>
-        </ToggleButtonGroup>
-      </div>
+
       <div id="homepage">
+        <div id="socialMediaButtonGroup">
+          <ToggleButtonGroup
+            orientation="vertical"
+            exclusive
+            onChange={handleChange}
+          >
+            <ToggleButton value="list" aria-label="list">
+              <LinkedInIcon />
+            </ToggleButton>
+            <ToggleButton value="module" aria-label="module">
+              <GitHubIcon />
+            </ToggleButton>
+            <ToggleButton value="quilt" aria-label="quilt">
+              <TwitterIcon />
+            </ToggleButton>
+          </ToggleButtonGroup>
+        </div>
         <div id="text">
           <Typography
             variant="h1"
@@ -95,6 +95,7 @@ export default function HomepageText() {
             </Button>
           </Link>
         </div>
+        <div></div>
       </div>
     </div>
   );

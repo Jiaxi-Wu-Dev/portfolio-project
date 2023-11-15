@@ -1,10 +1,11 @@
 #homepage {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   align-content: center;
   height: 100%;
+  position: relative;
 }
 
 #jiaxi {
@@ -34,4 +35,10 @@
 
 #projectText {
   color: white;
+}
+
+#socialMediaButtonGroup {
+  display: flex;
+  align-content: center;
+  margin-right: 5px;
 }
