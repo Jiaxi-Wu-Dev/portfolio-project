@@ -86,7 +86,10 @@
 
 #pictureJiaxi {
   width: 25%;
+  height: 50%;
   margin-top: 75px;
+  padding-bottom: 20px;
+  margin-right: 50px;
 }
 
 #aboutMeSection {
