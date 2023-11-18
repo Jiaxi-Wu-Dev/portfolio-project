@@ -10,6 +10,17 @@ import houseAngular from "./pictures/angular.png";
 
 export const data = [
   {
+    key: 7,
+    picture: chocolate,
+    alt: "Chocolate Store",
+    title: "Chocolate Store",
+    content: "Application with shopping cart features",
+    url: "https://magical-cranachan-6b81b3.netlify.app/",
+    details: "Search for your robofriends",
+    tools: "React, HTML/CSS, CRUD, MUI, ",
+  },
+  {
+
     key: 3,
     picture: reddit,
     alt: "reddit",

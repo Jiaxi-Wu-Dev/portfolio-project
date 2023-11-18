@@ -8,6 +8,7 @@ import "./NavBar.css";
 import { Link } from "react-router-dom";
 import brandPicture from "../../../assets/design-red2-logo-transparent-cropped.png";
 
+
 function ResponsiveAppBar() {
   return (
     <AppBar
@@ -37,6 +38,7 @@ function ResponsiveAppBar() {
           </div>
           <div>
             <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "flex" } }}>
+
               <Link to="/projects" className="list">
                 <Button
                   sx={{
@@ -50,6 +52,7 @@ function ResponsiveAppBar() {
                   color="error"
                 >
                   projects
+
                 </Button>
               </Link>
 

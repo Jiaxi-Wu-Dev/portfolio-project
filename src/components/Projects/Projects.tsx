@@ -1,5 +1,6 @@
 //@ts-nocheck
 
+
 import Grid from "@mui/material/Unstable_Grid2";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
@@ -11,10 +12,10 @@ import { data } from "./projectsData";
 import { Link } from "react-router-dom";
 
 export default function Projects() {
+
   const goToWebpage = (data) => {
     window.location.replace(data.url);
   };
-
   return (
     <div>
       <div id="projectsContainer">
@@ -33,10 +34,12 @@ export default function Projects() {
         {data.map((product, key) => (
           <Grid xs={2} sm={4} md={4} key={key}>
             <Link to={product.url}>
+
               <Card sx={{ maxWidth: 345 }} onClick={goToWebpage}>
                 <CardActionArea>
                   <CardMedia
                     component="img"
+
                     height="140"
                     image={product.picture}
                     alt={product.alt}

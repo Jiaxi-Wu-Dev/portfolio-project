@@ -1,3 +1,4 @@
+
 import "./Homepage.css";
 import NavBar from "./AppBar/NavBar";
 import { Route, Routes } from "react-router-dom";
@@ -17,3 +18,4 @@ export default function Homepage() {
     </div>
   );
 }
+
