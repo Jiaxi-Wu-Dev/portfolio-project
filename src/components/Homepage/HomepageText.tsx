@@ -53,7 +53,7 @@ export default function HomepageText() {
           </LinkUrl>
           <LinkUrl
             href={
-              "https://docs.google.com/document/d/1gJEK8LmemI9pBrT2frS62Pwt86Rw3nEg/edit?usp=sharing&ouid=112681058268360632929&rtpof=true&sd=true"
+              "https://github.com/wu-jiaxi/portfolio-project/blob/main/src/assets/Jiaxi%20Wu's%20Resume.pdf"
             }
           >
             <Button

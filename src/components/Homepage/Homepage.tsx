@@ -1,3 +1,4 @@
+
 import "./Homepage.css";
 import NavBar from "./AppBar/NavBar";
 import { Route, Routes } from "react-router-dom";
@@ -11,9 +12,10 @@ export default function Homepage() {
       <NavBar />
       <Routes>
         <Route path="/" element={<HomepageText />} />
-        <Route path="/Projects" element={<Projects />} />
-        <Route path="/About" element={<About />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/about" element={<About />} />
       </Routes>
     </div>
   );
 }
+
