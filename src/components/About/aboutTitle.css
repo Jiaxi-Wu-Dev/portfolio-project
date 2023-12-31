@@ -27,6 +27,7 @@
 
 .skillsInner {
   border-style: solid;
+  border-right: 0;
   border-width: 3px 1.5px 3px 3px;
   border-color: #a3a3a3;
   padding: 40px 30px;
@@ -164,4 +165,12 @@
 
 #technologiesContainer {
   width: fit-content;
+}
+
+#webDesignerSection {
+  border-style: solid;
+  border-width: 3px 3px 3px 3px;
+  border-color: #a3a3a3;
+  padding: 40px 30px;
+  width: 100%;
 }
