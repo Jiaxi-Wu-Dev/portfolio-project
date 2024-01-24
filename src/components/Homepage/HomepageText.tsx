@@ -50,7 +50,7 @@ export default function HomepageText() {
           </LinkUrl>
           <LinkUrl
             href={
-              "https://github.com/wu-jiaxi/portfolio-project/blob/main/src/assets/Jiaxi%20Wu's%20Resume.pdf"
+              "https://github.com/wu-jiaxi/portfolio-project/blob/branching-build/src/assets/Jiaxi%20Wu's%20Resume.pdf"
             }
           >
             <Button
