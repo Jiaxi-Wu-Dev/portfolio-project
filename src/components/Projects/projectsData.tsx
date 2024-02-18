@@ -4,11 +4,21 @@ import meditations from "./pictures/meditations.png";
 import reddit from "./pictures/redditPreSignin.png";
 import faceDetection from "./pictures/faceDetection.png";
 import robofriends from "./pictures/robofriends.png";
-import google from "./pictures/google.png";
 import chocolate from "./pictures/chocolate3.png";
 import houseAngular from "./pictures/angular.png";
+import panpalz from "./pictures/panpalz.png";
 
 export const data = [
+  {
+    key: 6,
+    picture: panpalz,
+    alt: "Panpalz",
+    title: "Panpalz",
+    content: "Panpalz Website",
+    url: "https://panpalz.com/",
+    details: "Nonprofit social app",
+    tools: "Wordpress, React.Native",
+  },
   {
     key: 3,
     picture: reddit,
@@ -93,15 +103,5 @@ export const data = [
     url: "https://marvelous-bublanina-3a5675.netlify.app/",
     details: "Search for your robofriends",
     tools: "React, React Hooks, API Integration",
-  },
-  {
-    key: 6,
-    picture: google,
-    alt: "Google",
-    title: "Google UI",
-    content: "Google UI",
-    url: "https://calm-gaufre-eef469.netlify.app/",
-    details: "Recreated Googles homepage",
-    tools: "HTML/CSS, UI",
   },
 ];
