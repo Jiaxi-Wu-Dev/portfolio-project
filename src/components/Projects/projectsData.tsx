@@ -3,10 +3,10 @@ import drumbeats2 from "./pictures/drumbeats2.png";
 import meditations from "./pictures/meditations.png";
 import reddit from "./pictures/redditPreSignin.png";
 import faceDetection from "./pictures/faceDetection.png";
-import robofriends from "./pictures/robofriends.png";
 import chocolate from "./pictures/chocolate3.png";
 import houseAngular from "./pictures/angular.png";
 import panpalz from "./pictures/panpalz.png";
+import tshirt from "./pictures/tshirt.png";
 
 export const data = [
   {
@@ -18,6 +18,16 @@ export const data = [
     url: "https://panpalz.com/",
     details: "Nonprofit social app",
     tools: "Wordpress, React.Native",
+  },
+  {
+    key: 5,
+    picture: tshirt,
+    alt: "Design T-Shirt",
+    title: "3D T-Shirt Design",
+    content: "T-Shirt",
+    url: "https://designshirt.netlify.app/",
+    details: "Create a custom t-shirt design",
+    tools: "React, Three.js, Javascript",
   },
   {
     key: 3,
@@ -92,16 +102,5 @@ export const data = [
     url: "https://6552db8d56eacf59ebc01804--eclectic-beijinho-99a37d.netlify.app/",
     details: "Search through cities with this Angular App",
     tools: "Angular, HTML/CSS, Full Stack",
-  },
-
-  {
-    key: 5,
-    picture: robofriends,
-    alt: "Robo Friends",
-    title: "Robo Friends Search",
-    content: "Search for your robofriends",
-    url: "https://marvelous-bublanina-3a5675.netlify.app/",
-    details: "Search for your robofriends",
-    tools: "React, React Hooks, API Integration",
   },
 ];
