@@ -112,9 +112,7 @@ export default function About() {
                   Lets build something awesome.
                 </p>
               </div>
-              <div id="technology">
-                <AboutButtons />
-              </div>
+              <div id="technology"></div>
             </div>
             <img src={profilePicture} id="pictureJiaxi"></img>
           </div>
